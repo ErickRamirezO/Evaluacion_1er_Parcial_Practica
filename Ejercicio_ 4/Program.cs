@@ -3,15 +3,17 @@
 class Program{
 
     class Estudiante   {
+        //Propiedades de la clase estudiante
         public string Nombre;
         public int Edad;
         public double Calificacion;
-
+        //Constructor que inicializa todas las propiedades de la clase
         public Estudiante(string nombre, int edad, double calificacion) {
             Nombre = nombre;
             Edad = edad;
             Calificacion = calificacion;
         }
+        //Método para mostrar toda la información del estudiante
         public void MostrarInformacion() {
             Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}, Calificacion: {Calificacion}");
         }
